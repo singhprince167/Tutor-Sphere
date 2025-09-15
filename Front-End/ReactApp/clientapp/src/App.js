@@ -1,6 +1,5 @@
 
- import Carousel from "./components/Carousel";
- import Home from "./components/Home";
+import Home from "./components/Home";
 
 
 function App() {
@@ -8,7 +7,7 @@ function App() {
   
     <>
     <Home/>
-    {/* <Carousel/>  */}
+    
        
    
     </> 

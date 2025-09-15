@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 function UserHome() {
     const URL = "http://localhost:3001/user/profile";
     const [profile, setProfile] = useState({ name: "", email: "", phone: "", password: "" });
-    const [acname ,setAcName] = useState("");
+     const [acname ,setAcName] = useState("");
     const navigate = useNavigate();
 
     useEffect(() => {

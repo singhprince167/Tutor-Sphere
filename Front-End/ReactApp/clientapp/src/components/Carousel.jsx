@@ -1,5 +1,4 @@
 import React from 'react';
-import Counselling from './Counselling';
 
 function Carousel() {
   const handleCarouselControl = (direction) => {

@@ -80,12 +80,12 @@
 import { useState } from "react";
 import axios from 'axios';
 import Swal from 'sweetalert2'
-import withReactContent from 'sweetalert2-react-content'
+// import withReactContent from 'sweetalert2-react-content'
 
 const FeedBack = () => {
   const API_URL = "http://localhost:3001/addFeedBack";
   const [feedback, setFeedBack] = useState({ name: "", email: "", remarks: "" });
-  const MySwal = withReactContent(Swal)
+  // const MySwal = withReactContent(Swal)
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 

@@ -1,11 +1,9 @@
 import React from 'react';
-import NavBar from './NavBar.jsx';
-import Footer from './Footer.jsx';
 
 function Counselling() {
     return (
         <>
-            {/* <NavBar/> */}
+            
             <div style={{ maxWidth: '800px', margin: '0 auto', padding: '20px' }}>
                 <h1 style={{ textAlign: 'center', fontSize: '24px', marginBottom: '20px' }}>Meet Our Counselors</h1>
                 <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>

@@ -12,7 +12,7 @@ function UserEditProfile() {
 
     const [editProfile, setEditProfile] = useState({ name: "", email: "", phone: "" })
 
-    const [acname, setAcName] = useState("")
+     const [acname, setAcName] = useState("")
     const navigate = useNavigate()
     const token_data = localStorage.getItem("Token_key")
 
